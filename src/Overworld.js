@@ -1,7 +1,3 @@
-// Exercise 04: Slime World
-// Name: 
-// Date: 
-
 class Overworld extends Phaser.Scene {
     constructor() {
         super('overworldScene')

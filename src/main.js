@@ -1,3 +1,7 @@
+// Exercise 04: Slime World
+// Name: 
+// Date: 
+
 let config = {
     type: Phaser.AUTO,
     render: {
