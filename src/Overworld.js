@@ -3,6 +3,10 @@ class Overworld extends Phaser.Scene {
         super('overworldScene')
     }
 
+    init() {
+        this.VEL = 100  // slime velocity constant
+    }
+
     preload() {
         this.load.path = './assets/'
         this.load.spritesheet('slime', 'slime.png', {
@@ -12,9 +16,6 @@ class Overworld extends Phaser.Scene {
     }
 
     create() {
-        // velocity constant
-        this.VEL = 100
-
         // add slime
         this.slime = this.physics.add.sprite(32, 32, 'slime', 0)
         this.slime.body.setCollideWorldBounds(true)

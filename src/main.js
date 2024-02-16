@@ -1,4 +1,4 @@
-// Exercise 04: Slime World
+// Code Practice: Slime World
 // Name: 
 // Date: 
 
